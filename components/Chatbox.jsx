@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import Talk from "@libs/bot";
-import MarkdownRenderer from "@components/Markdown"
+import Talk from "@libs/bot.js";
+import MarkdownRenderer from "@components/Markdown.jsx"
 
 export default function Chatbox() {
     const [messages, setMessages] = useState([]);
