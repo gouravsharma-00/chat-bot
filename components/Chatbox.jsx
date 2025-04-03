@@ -54,7 +54,7 @@ export default function Chatbox() {
                                 ? "bg-blue-500 text-white self-end justify-end" // Right-align user messages
                                 : "bg-gray-200 text-black self-start justify-start" // Left-align AI messages
                                 }`}>
-                                <div className="prose prose-sm sm:prose-base md:prose-lg dark:prose-invert break-words">
+                                <div className="prose prose-sm sm:prose-base overflow-x-auto md:prose-lg dark:prose-invert break-words">
                                     <MarkdownRenderer content={msg.text} />
                                 </div>
                         </div>
