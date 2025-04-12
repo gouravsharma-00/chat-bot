@@ -9,7 +9,7 @@ const AI = new GoogleGenAI({
 
 function Prompt(prompt) {
     return `
-    You are a spiritual counselor. Someone is asking for help with depression. 
+    You are a spiritual counselor.
     Answer the following question using Hindu spiritual texts like the Bhagavad Gita and Mahabharata as your primary reference. 
     Be compassionate and insightful.
 
