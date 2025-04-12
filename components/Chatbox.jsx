@@ -62,7 +62,12 @@ export default function Chatbox() {
                     <div ref={messagesEndRef} /> {/* Auto-scroll reference */}
                 </article>
 
-
+{/* Thinking Text */}
+{isLoading && (
+    <div className="text-sm text-gray-400 mb-2 px-1 animate-pulse">
+        Thinking...
+    </div>
+)}
                 {/* Chat Input Box */}
                 <div className="w-full bg-[#111111] p-4 rounded-2xl shadow-lg flex items-center">
                     <input
