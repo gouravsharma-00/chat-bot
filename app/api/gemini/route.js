@@ -7,6 +7,15 @@ const AI = new GoogleGenAI({
   httpOptions: { apiVersion: "v1alpha" },
 });
 
+function Prompt(prompt) {
+    return `
+    You are a spiritual counselor. Someone is asking for help with depression. 
+    Answer the following question using Hindu spiritual texts like the Bhagavad Gita and Mahabharata as your primary reference. 
+    Be compassionate and insightful.
+
+    Question: ${prompt}
+    `;
+}
 
 export async function POST(req) {
     const { prompt } = await req.json()
@@ -14,7 +23,7 @@ export async function POST(req) {
     try {
         const response = await AI.models.generateContent({
             model: "gemini-2.0-flash",
-            contents: prompt,
+            contents: Prompt(prompt),
         })
 
         return Response.json({"response" : response.text}, {status: 200})
