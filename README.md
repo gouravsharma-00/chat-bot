@@ -13,7 +13,7 @@ This is a powerful and flexible AI chatbot that connects to **Google's Gemini AP
 
 1. Clone this repository.
 2. Install the required dependencies.
-3. Add your `GEMINI_API_KEY` in a `.env` file.
+3. Add your `GEM_API` in a `.env` file.
 4. Install and start a local model using [Ollama](https://ollama.com).
 5. Run the chatbot using either Gemini or a local LLM:
 
