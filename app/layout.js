@@ -4,19 +4,12 @@ import "@/globals.css"
 
 export const metadata = {
     title: {
-        "template": "%s | Your AI guide to Braj",
-        "default" : "Braj-Darshan | Your AI guide to Braj"
+        "template": "%s | Your AI guide",
+        "default" : "Braj-Darshan | Your AI guide"
     },
-    description : "Explore the rich heritage of Braj with Braj-Darshan | Your AI-powered guide for temples, history, culture, and travel in Mathura, Vrindavan, and beyond!",
+    description : "Your AI-powered guide and beyond!",
     keywords: [
-        "Braj",
-        "Mathura",
-        "Vrindavan",
-        "Krishna",
-        "Temples",
-        "Festivals",
-        "Travel",
-        "AI Chatbot",
+        "AI Chatbot"
     ],
     authors: [{ name: "gouravsharma-00" }],
     icons: "/favicon.png",
@@ -27,8 +20,8 @@ export default function RootLayout({ children }) {
         <html lang='en' suppressHydrationWarning>
             <head>
                 {/* OpenGraph */}
-                <meta property='og:title' content='Braj-Darshan | Your AI guide to Braj' />
-                <meta property='og:description' content='Explore the rich heritage of Braj with Braj-Darshan | Your AI-powered guide for temples, history, culture, and travel in Mathura, Vrindavan, and beyond!' />
+                <meta property='og:title' content='Braj-Darshan | Your AI guide' />
+                <meta property='og:description' content='Your AI-powered guide and beyond!' />
                 {/* Icon : Peacock icons created by Freepik - Flaticon 
                     link : https://www.flaticon.com/free-icons/peacock */}
                 <meta property='og:image' content='https://braj-darshan.vercel.app/favicon.png' />
@@ -37,8 +30,8 @@ export default function RootLayout({ children }) {
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Braj-Darshan | Your AI guide to Braj" />
-                <meta name="twitter:description" content="Explore the rich heritage of Braj with Braj-Darshan | Your AI-powered guide for temples, history, culture, and travel in Mathura, Vrindavan, and beyond!" />
+                <meta name="twitter:title" content="Braj-Darshan | Your AI guide " />
+                <meta name="twitter:description" content="EYour AI-powered guide and beyond!" />
                 <meta name="twitter:image" content="https://braj-darshan.vercel.app/favicon.png" />
                 <meta name="twitter:site" content="@braj-darshan" />
             </head>
