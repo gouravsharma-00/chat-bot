@@ -1,6 +1,3 @@
-
-![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
-
 # 🚀 AI Chatbot: Gemini API + Local LLMs with Ollama
 
 > A powerful AI chatbot that seamlessly blends cloud-based Gemini with local LLMs via Ollama.
@@ -9,7 +6,7 @@
 
 ## 📌 Problem Statement
 
-**PS 8: Reimagine Peer-to-Peer Learning & Mentorship**
+**Reimagine Peer-to-Peer Learning & Mentorship**
 
 ---
 
@@ -66,14 +63,6 @@ Highlight the most important features of your project:
 ## 📽️ Demo & Deliverables
 
 * **Demo Video Link:** \[[YouTube](https://youtu.be/TrC9TgeiVOs)]
-
----
-
-## ✅ Tasks & Bonus Checklist
-
-* ✅ **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form**
-* ✅ **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**
-* ✅ **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**
 
 ---
 
