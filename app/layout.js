@@ -4,8 +4,8 @@ import "@/globals.css"
 
 export const metadata = {
     title: {
-        "template": "%s | Your AI guide",
-        "default" : "Braj-Darshan | Your AI guide"
+        "template": "%s | Your AI guru",
+        "default" : "ICE | Your AI guru"
     },
     description : "Your AI-powered guide and beyond!",
     keywords: [
