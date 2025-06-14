@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <html lang='en' suppressHydrationWarning>
             <head>
                 {/* OpenGraph */}
-                <meta property='og:title' content='Braj-Darshan | Your AI guide' />
+                <meta property='og:title' content='ICE | Your AI guru' />
                 <meta property='og:description' content='Your AI-powered guide and beyond!' />
                 {/* Icon : Peacock icons created by Freepik - Flaticon 
                     link : https://www.flaticon.com/free-icons/peacock */}
@@ -30,8 +30,8 @@ export default function RootLayout({ children }) {
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Braj-Darshan | Your AI guide " />
-                <meta name="twitter:description" content="EYour AI-powered guide and beyond!" />
+                <meta name="twitter:title" content="ICE | Your AI guru" />
+                <meta name="twitter:description" content="Your AI-powered guide and beyond!" />
                 <meta name="twitter:image" content="https://braj-darshan.vercel.app/favicon.png" />
                 <meta name="twitter:site" content="@braj-darshan" />
             </head>
