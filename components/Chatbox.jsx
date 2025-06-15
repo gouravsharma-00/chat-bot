@@ -119,7 +119,8 @@ export default function Chatbox() {
                     ))}
                     <div ref={messagesEndRef} />
                 </article>
-<VirtualAvatar isTalking={isTalking} />
+                <VirtualAvatar isTalking={isTalking} />
+                <br/>
                 {/* Thinking Text */}
                 {isLoading && (
                     <div className="text-sm text-gray-400 mb-2 px-1 animate-pulse">
