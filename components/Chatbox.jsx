@@ -3,9 +3,11 @@
 import { useState, useRef, useEffect } from "react";
 import Talk from "@libs/bot.js";
 import MarkdownRenderer from "@components/Markdown.jsx";
+import VirtualAvatar from "./VirtualAvatar";
 
 export default function Chatbox() {
     const [messages, setMessages] = useState([]);
+    const [isTalking, setIsTalking] = useState(false);
     const [input, setInput] = useState("");
     const messagesEndRef = useRef(null);
     const inputRef = useRef(null);
@@ -22,6 +24,9 @@ export default function Chatbox() {
         if (typeof window !== "undefined" && "speechSynthesis" in window) {
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = "en-US";
+            utterance.onstart = () => setIsTalking(true);
+            utterance.onend = () => setIsTalking(false);
+
             window.speechSynthesis.speak(utterance);
         }
     };
@@ -114,7 +119,7 @@ export default function Chatbox() {
                     ))}
                     <div ref={messagesEndRef} />
                 </article>
-
+<VirtualAvatar isTalking={isTalking} />
                 {/* Thinking Text */}
                 {isLoading && (
                     <div className="text-sm text-gray-400 mb-2 px-1 animate-pulse">
